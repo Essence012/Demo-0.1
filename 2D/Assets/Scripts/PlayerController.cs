@@ -76,14 +76,14 @@ public class PlayerController : MonoBehaviour
 		    rigidbody2d.velocity = new Vector2(speed,rigidbody2d.velocity.y);
 		    if (isGrounded && !isAttacking)
 		    animator.Play("Player_Run") ; 
-			transform.localScale = new Vector3(1,1,1);
+			transform.localScale = new Vector3(4,4,1);
 		  }
 		  else if (Input.GetKey(KeyCode.A))
 		       {
 		          rigidbody2d.velocity = new Vector2(-speed,rigidbody2d.velocity.y);
 		          if (isGrounded && !isAttacking)
 		          animator.Play("Player_Run") ; 
-		          transform.localScale = new Vector3(-1,1,1);
+		          transform.localScale = new Vector3(-4,4,1);
 		       }
 		       else 
 		       {
