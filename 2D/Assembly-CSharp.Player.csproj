@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\FireScript.cs" />
     <Compile Include="Assets\Scripts\UIO2Bar.cs" />
     <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Scripts\UIHealthBar.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\DamageZone.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Parallax.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
